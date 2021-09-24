@@ -1,0 +1,9 @@
+mongodb:
+  string: "mongodb+srv://ivan_1:kch7X677@cluster0.ffh2j.mongodb.net/testDB?retryWrites=true&w=majority"
+  
+fileSettings:
+  folder:
+    out: "tmp/output/"
+  fileName:
+      name: "agency_info"
+      ext: ".csv"
