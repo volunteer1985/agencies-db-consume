@@ -14,14 +14,12 @@ http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mu
 				<fixed-frequency frequency="10" timeUnit="SECONDS"/>
 			</scheduling-strategy>
 		</scheduler>
-		<round-robin doc:name="Round Robin" doc:id="dc13695e-fce1-4ac7-af85-d5bc5b4b8bb5">
-			<route>
-				<os:retrieve doc:name="lastNASAID" doc:id="5520454b-b90f-48a9-9c39-1f73ec574d80" key="lastNASAID" target="lastNASAID">
+		<os:retrieve doc:name="lastNASAID" doc:id="5520454b-b90f-48a9-9c39-1f73ec574d80" key="lastNASAID" target="lastNASAID">
 					<os:default-value><![CDATA[0]]></os:default-value>
 				</os:retrieve>
-				<ee:transform doc:name="Transform Message" doc:id="b99a2abd-21a4-43d6-9e8e-916c101575fe" >
-					<ee:message >
-						<ee:set-payload ><![CDATA[%dw 2.0
+		<ee:transform doc:name="Transform Message" doc:id="b99a2abd-21a4-43d6-9e8e-916c101575fe">
+					<ee:message>
+						<ee:set-payload><![CDATA[%dw 2.0
 output application/json
 ---
 {
@@ -29,10 +27,10 @@ output application/json
 }]]></ee:set-payload>
 					</ee:message>
 				</ee:transform>
-				<mongo:find-documents doc:name="Find documents" doc:id="7c0987ee-7d26-4850-9d5d-b47efa41ddd8" config-ref="Test_Base_MongoDB_Config" collectionName="National Aeronautics and Space Administration" fields=",">
+		<mongo:find-documents doc:name="Find documents" doc:id="7c0987ee-7d26-4850-9d5d-b47efa41ddd8" config-ref="Test_Base_MongoDB_Config" collectionName="National Aeronautics and Space Administration" fields=",">
 					<mongo:query><![CDATA[#[payload]]]></mongo:query>
 				</mongo:find-documents>
-				<choice doc:name="Choice" doc:id="fb5dfd3d-a993-464a-8d06-986863dc507e">
+		<choice doc:name="Choice" doc:id="fb5dfd3d-a993-464a-8d06-986863dc507e">
 					<when expression="#[not isEmpty(payload)]">
 						<ee:transform doc:name="Transform Message" doc:id="6194f79e-25eb-47b7-97de-8a9599cdc231">
 							<ee:message>
@@ -46,7 +44,7 @@ payload
 						<os:store doc:name="Store" doc:id="e99dee26-bb5c-499b-95ca-235f42cc0f71" key="lastNASAID">
 							<os:value><![CDATA[#[max(payload.*r_id)]]]></os:value>
 						</os:store>
-						<set-variable value='#[Mule::p("fileSettings.folder.out") ++ Mule::p("fileSettings.fileName.name") ++ Mule::p("fileSettings.fileName.ext")]' doc:name="setFiileName" doc:id="827a83ad-78a7-4a3e-b837-c95bfff10b0e" variableName="setFileName"/>
+						<set-variable value='#[Mule::p("fileSettings.folder.out") ++ Mule::p("fileSettings.fileName.name")++ payload.agency[0] as String ++ Mule::p("fileSettings.fileName.ext")]' doc:name="setFiileName" doc:id="827a83ad-78a7-4a3e-b837-c95bfff10b0e" variableName="setFileName" />
 						<ee:transform doc:name="Transform Message" doc:id="2c8567f1-0577-4f63-a7e1-cb7b33440165">
 							<ee:message>
 								<ee:set-payload><![CDATA[%dw 2.0
@@ -55,31 +53,30 @@ output application/csv
 payload map(outValue, outIndex) -> {
 	r_id: outValue.r_id,
 	agency: outValue.agency,
-	stations_count: outValue.stations.stations_count,
-	stations_list: flatten(outValue.stations.stations_list),
-	launches_count: outValue.launches.launches_count,
-	launch_name: outValue.launches.launches_list.name,
-	launch_status: outValue.launches.launches_list.status,
-	launch_year: outValue.launches.launches_list.launch_year,
-	launch_failreason: outValue.launches.launches_list.failreason,
-	launch_rocket: flatten(outValue.launches.launches_list.rocket),
-	launch_mission: flatten(outValue.launches.launches_list.mission),
-	launch_pad: flatten(outValue.launches.launches_list.pad)
-	
-	
-		
+//	stations_count: outValue.stations.stations_count,
+//	//stations_list: flatten(outValue.stations.stations_list),
+//	launches_count: outValue.launches.launches_count,
+//	launch_name: outValue.launches.launches_list.name,
+//	launch_status: outValue.launches.launches_list.status,
+//	launch_year: outValue.launches.launches_list.launch_year,
+//	launch_failreason: outValue.launches.launches_list.failreason,
+//	launch_rocket: flatten(outValue.launches.launches_list.rocket),
+//	launch_mission: flatten(outValue.launches.launches_list.mission),
+//	launch_pad: flatten(outValue.launches.launches_list.pad)
+//	
+//	
+//		
 	
 }
 ]]></ee:set-payload>
 							</ee:message>
 						</ee:transform>
-						<logger level="INFO" doc:name="logPayload" doc:id="26ba0d6a-6014-483b-affd-7ae0cfed125f" message="#[payload]" />
+						<file:write doc:name="Write" doc:id="7efdd2bf-bfa8-456f-8128-a74f0820b019" path="#[vars.setFileName]" mode="APPEND"/>
+				<logger level="INFO" doc:name="logPayload" doc:id="26ba0d6a-6014-483b-affd-7ae0cfed125f" message="#[payload]" />
 					</when>
-					<otherwise >
-						<logger level="INFO" doc:name="Logger" doc:id="a670f180-92ad-435f-9ec6-0464c89eb64d" />
+					<otherwise>
+						<logger level="INFO" doc:name="noNewDataMessage" doc:id="a670f180-92ad-435f-9ec6-0464c89eb64d" message="No new data was found in collection"/>
 					</otherwise>
 				</choice>
-			</route>
-		</round-robin>
 	</flow>
 </mule>
