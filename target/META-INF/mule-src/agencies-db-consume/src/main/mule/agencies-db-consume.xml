@@ -52,7 +52,7 @@ else
 						</ee:variables>
 			</ee:transform>
 					<logger level="INFO" doc:name="Logger" doc:id="12469830-c609-47b2-b3d1-46c6c5fd4b06" message="max_id_arr among records = #[vars.max_id_arr]" />
-					<set-variable value="#[Mule::p('fileSettings.folder') ++ vars.c_name ++ now() as String {format: &quot;yyyy-MM-dd&quot;} ++ &quot;-&quot; ++&#10;&#10;now() as String {format: &quot;hh-m-s&quot;} ++ &quot;.json&quot;]" doc:name="Set Variable" doc:id="ad82928e-e0e7-4a3a-94a4-13a8a46b8da5" variableName="file_name" />
+					<set-variable value="#[Mule::p('fileSettings.folder') ++ vars.c_name ++ &quot;-&quot; ++ now() as String {format: &quot;yyyy-MM-dd&quot;} ++ &quot;-&quot; ++ now() as String {format: &quot;hh-m-s&quot;} ++ &quot;.json&quot;]" doc:name="Set Variable" doc:id="ad82928e-e0e7-4a3a-94a4-13a8a46b8da5" variableName="file_name" />
 					<file:write doc:name="Write" doc:id="edb561bc-eb46-4e96-b445-015fe514fb80" mode="CREATE_NEW" path="#[vars.file_name]" config-ref="File_Config">
 					</file:write>
 				</when>

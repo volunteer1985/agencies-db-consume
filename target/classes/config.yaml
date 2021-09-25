@@ -1,8 +1,5 @@
 mongodb:
-  string: "mongodb+srv://ivan_1:kch7X677@cluster0.ffh2j.mongodb.net/testDB?retryWrites=true&w=majority"
+  string: "mongodb+srv://<name>:<pass>@cluster0.ffh2j.mongodb.net/testDB?retryWrites=true&w=majority"
   
 fileSettings:
   folder: "C:/Users/Natalka/AnypointStudio/demo-workspace/agencies-db-consume/Write/"
-  fileName:
-      name: "agency_info"
-      ext: ".csv"
