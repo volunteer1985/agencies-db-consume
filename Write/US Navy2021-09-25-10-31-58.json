@@ -1,0 +1,42 @@
+[
+  {
+    "_id": {
+      "$oid": "614f7929cc97d03983d77ec6"
+    },
+    "r_id": 34,
+    "agency": "US Navy",
+    "launches": {
+      "launches_count": 1,
+      "launches_list": [
+        {
+          "name": "Scout X-2 | SOLRAD 4B",
+          "status": "Failure",
+          "launch_year": "1962",
+          "failreason": "",
+          "rocket": {
+            "name": "Scout X-2",
+            "family": "Scout",
+            "full_name": "Scout X-2",
+            "variant": "X-2"
+          },
+          "mission": {
+            "name": "SOLRAD 4B",
+            "description": "SOLRAD (SOLar RADiation) 4B was a solar X-ray, ultraviolet, and electronic surveillance satellite. Developed by the United States Navy's United States Naval Research Laboratory, it was the fifth in both the SOLRAD and the GRAB (Galactic Radiation And Background) programs.",
+            "type": "Astrophysics",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 5",
+            "location": {
+              "name": "Vandenberg SFB, CA, USA",
+              "country_code": "USA",
+              "total_launch_count": 690,
+              "total_landing_count": 3
+            }
+          }
+        }
+      ]
+    }
+  }
+]

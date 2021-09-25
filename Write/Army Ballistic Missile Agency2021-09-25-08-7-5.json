@@ -1,0 +1,530 @@
+[
+  {
+    "_id": {
+      "$oid": "614db18577d4b309ce59a7ce"
+    },
+    "r_id": 14,
+    "agency": "Army Ballistic Missile Agency",
+    "launches": {
+      "launches_count": 9,
+      "launches_list": [
+        {
+          "name": "Juno-I | Explorer 1",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 1",
+            "description": "First successfully launched American satellite. It was the first spacecraft to detect the Van Allen Radiation Belt.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 26A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Explorer 2",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 2",
+            "description": "Small satellite similar to Explorer 1. It failed to reach orbit due to a fourth stage failure.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 26A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Explorer 3",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 3",
+            "description": "Small satellite launched into an eccentric orbit with a cosmic ray counter and a micrometeorite detector.",
+            "type": "Earth Science",
+            "orbit": "Elliptical Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 26A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Explorer 4",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 4",
+            "description": "An American satellite in order to study the Van Allen radiation belts and the effects of nuclear explosions upon these belts.",
+            "type": "Earth Science",
+            "orbit": "Medium Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 5",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Thor Able I | Able I (Pioneer)",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Thor Able I",
+            "family": "Thor",
+            "full_name": "Thor Able I",
+            "variant": "Able I"
+          },
+          "mission": {
+            "name": "Able I (Pioneer)",
+            "description": "The first pioneer orbiter, pioneer 0 was a lunar orbiter intended to enter a lunar orbit for observation. However, the mission failed 77 seconds into launch.",
+            "type": "Lunar Exploration",
+            "orbit": "Lunar Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 17A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Explorer 5",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 5",
+            "description": "Explorer 5 was a US satellite designed to study the van allen radiation belts, however, the launch failed after the first stage collided with the second stage.",
+            "type": "Earth Science",
+            "orbit": "Medium Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 5",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Thor Able I | Pioneer 1",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Thor Able I",
+            "family": "Thor",
+            "full_name": "Thor Able I",
+            "variant": "Able I"
+          },
+          "mission": {
+            "name": "Pioneer 1",
+            "description": "The second pioneer orbiter, pioneer 1 intended to enter lunar orbit but missed the Moon after a third stage partial failure.",
+            "type": "Lunar Exploration",
+            "orbit": "Lunar Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 17A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Beacon",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Beacon",
+            "description": "Beacon 1 was a large inflatable satellite of micro-thin plastic covered with aluminium foil. It was designed to be large so that it was easily visible from Earth.",
+            "type": "Test Target",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 5",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Thor Able I | Pioneer 2",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Thor Able I",
+            "family": "Thor",
+            "full_name": "Thor Able I",
+            "variant": "Able I"
+          },
+          "mission": {
+            "name": "Pioneer 2",
+            "description": "The third pioneer orbiter, pioneer 2 intended to enter lunar orbit but failed to make orbit when the third stage failed to ignite.",
+            "type": "Lunar Exploration",
+            "orbit": "Lunar Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 17A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": {
+      "$oid": "614db7c37b85dc42e796827d"
+    },
+    "r_id": 15,
+    "agency": "Army Ballistic Missile Agency",
+    "launches": {
+      "launches_count": 9,
+      "launches_list": [
+        {
+          "name": "Juno-I | Explorer 1",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 1",
+            "description": "First successfully launched American satellite. It was the first spacecraft to detect the Van Allen Radiation Belt.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 26A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Explorer 2",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 2",
+            "description": "Small satellite similar to Explorer 1. It failed to reach orbit due to a fourth stage failure.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 26A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Explorer 3",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 3",
+            "description": "Small satellite launched into an eccentric orbit with a cosmic ray counter and a micrometeorite detector.",
+            "type": "Earth Science",
+            "orbit": "Elliptical Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 26A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Explorer 4",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 4",
+            "description": "An American satellite in order to study the Van Allen radiation belts and the effects of nuclear explosions upon these belts.",
+            "type": "Earth Science",
+            "orbit": "Medium Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 5",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Thor Able I | Able I (Pioneer)",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Thor Able I",
+            "family": "Thor",
+            "full_name": "Thor Able I",
+            "variant": "Able I"
+          },
+          "mission": {
+            "name": "Able I (Pioneer)",
+            "description": "The first pioneer orbiter, pioneer 0 was a lunar orbiter intended to enter a lunar orbit for observation. However, the mission failed 77 seconds into launch.",
+            "type": "Lunar Exploration",
+            "orbit": "Lunar Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 17A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Explorer 5",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Explorer 5",
+            "description": "Explorer 5 was a US satellite designed to study the van allen radiation belts, however, the launch failed after the first stage collided with the second stage.",
+            "type": "Earth Science",
+            "orbit": "Medium Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 5",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Thor Able I | Pioneer 1",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Thor Able I",
+            "family": "Thor",
+            "full_name": "Thor Able I",
+            "variant": "Able I"
+          },
+          "mission": {
+            "name": "Pioneer 1",
+            "description": "The second pioneer orbiter, pioneer 1 intended to enter lunar orbit but missed the Moon after a third stage partial failure.",
+            "type": "Lunar Exploration",
+            "orbit": "Lunar Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 17A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Juno-I | Beacon",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Juno-I",
+            "family": "Redstone",
+            "full_name": "Juno-I",
+            "variant": "Juno I"
+          },
+          "mission": {
+            "name": "Beacon",
+            "description": "Beacon 1 was a large inflatable satellite of micro-thin plastic covered with aluminium foil. It was designed to be large so that it was easily visible from Earth.",
+            "type": "Test Target",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 5",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Thor Able I | Pioneer 2",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Thor Able I",
+            "family": "Thor",
+            "full_name": "Thor Able I",
+            "variant": "Able I"
+          },
+          "mission": {
+            "name": "Pioneer 2",
+            "description": "The third pioneer orbiter, pioneer 2 intended to enter lunar orbit but failed to make orbit when the third stage failed to ignite.",
+            "type": "Lunar Exploration",
+            "orbit": "Lunar Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 17A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        }
+      ]
+    }
+  }
+]

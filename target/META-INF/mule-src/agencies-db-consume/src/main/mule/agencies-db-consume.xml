@@ -8,78 +8,64 @@ http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/cu
 http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
 http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd">
-	<flow name="agencies-db-consumeFlow" doc:id="1dcc31bb-241e-47df-a4cb-ef382bc9c078" >
-		<scheduler doc:name="Scheduler" doc:id="0761ae83-9a6f-4a25-84e7-f16b36d9ffea" >
+	<flow name="agencies-db-consumeFlow1" doc:id="bb69e14c-2b6e-4f78-b2fe-c1c4265da72f" >
+		<scheduler doc:name="Copy_of_Scheduler" doc:id="a5f71d80-9000-4f41-b693-52a2ac85e434" >
 			<scheduling-strategy >
-				<fixed-frequency frequency="10" timeUnit="SECONDS"/>
+				<fixed-frequency frequency="30" timeUnit="SECONDS" />
 			</scheduling-strategy>
 		</scheduler>
-		<round-robin doc:name="Round Robin" doc:id="dc13695e-fce1-4ac7-af85-d5bc5b4b8bb5">
-			<route>
-				<os:retrieve doc:name="lastNASAID" doc:id="5520454b-b90f-48a9-9c39-1f73ec574d80" key="lastNASAID" target="lastNASAID">
-					<os:default-value><![CDATA[0]]></os:default-value>
-				</os:retrieve>
-				<ee:transform doc:name="Transform Message" doc:id="b99a2abd-21a4-43d6-9e8e-916c101575fe" >
-					<ee:message >
-						<ee:set-payload ><![CDATA[%dw 2.0
+		<os:retrieve doc:name="last_id" doc:id="96d64fac-2ee8-4b51-ae29-63ad06e0e77f" key="last_id" target="last_id" >
+			<os:default-value ><![CDATA[#[0 as Number]]]></os:default-value>
+		</os:retrieve>
+		<logger level="INFO" doc:name="Logger" doc:id="3eafcc88-a5f7-4d36-a19c-9d33e9b0d64c" message="last_id = #[payload]"/>
+		<mongo:list-collections doc:name="List collections" doc:id="4f8cd118-5b4e-41c4-9ca7-46313096b1be" config-ref="Test_Base_MongoDB_Config" target="coll_name"/>
+		<logger level="INFO" doc:name="Logger" doc:id="05b2b0da-e911-4f56-9594-f666e6be36a1" message="list collections = #[payload]"/>
+		<set-variable value="#[[]]" doc:name="Set max_id_arr" doc:id="2391ebc4-1a13-4588-9ec8-75b5a0b0c127" variableName="max_id_arr"/>
+		<logger level="INFO" doc:name="Logger" doc:id="ae53dabf-c3c5-4dff-92a6-fa310c2d4c5a" message="max_id_arr = #[vars.max_id_arr]"/>
+		<foreach doc:name="For Each" doc:id="271b5dca-2c31-4425-874f-75e8642f391b" collection="#[vars.coll_name]">
+			<set-variable value="#[payload]" doc:name="Set c_name" doc:id="2bc67163-f448-48c6-b58b-5139a11d66b7" variableName="c_name"/>
+			<logger level="INFO" doc:name="Logger" doc:id="3af97406-7073-4b13-adfe-65d5a47683c2" message="collection name = #[vars.c_name]"/>
+			<mongo:find-documents doc:name="Find documents" doc:id="c3c142ec-3fc1-445b-87bc-129b2f005e12" config-ref="Test_Base_MongoDB_Config" collectionName="#[payload]" fields=",">
+			</mongo:find-documents>
+			<ee:transform doc:name="Records with id exceeded last_id" doc:id="911e61be-8806-487b-93cc-d2529ad0bc2a">
+				<ee:message>
+					<ee:set-payload><![CDATA[%dw 2.0
 output application/json
 ---
-{
-	"r_id" : {"\$gt" : vars.lastNASAID as Number}
-}]]></ee:set-payload>
-					</ee:message>
-				</ee:transform>
-				<mongo:find-documents doc:name="Find documents" doc:id="7c0987ee-7d26-4850-9d5d-b47efa41ddd8" config-ref="Test_Base_MongoDB_Config" collectionName="National Aeronautics and Space Administration" fields=",">
-					<mongo:query><![CDATA[#[payload]]]></mongo:query>
-				</mongo:find-documents>
-				<choice doc:name="Choice" doc:id="fb5dfd3d-a993-464a-8d06-986863dc507e">
-					<when expression="#[not isEmpty(payload)]">
-						<ee:transform doc:name="Transform Message" doc:id="6194f79e-25eb-47b7-97de-8a9599cdc231">
-							<ee:message>
-								<ee:set-payload><![CDATA[%dw 2.0
+payload filter((item, index) -> item.r_id > vars.last_id)]]></ee:set-payload>
+				</ee:message>
+			</ee:transform>
+			<logger level="INFO" doc:name="Logger Find documents" doc:id="6cca5ccf-8d93-4082-ac7b-418e388fa57b" message="After find documents #[sizeOf(payload)]"/>
+			<choice doc:name="Choice" doc:id="e9135bd4-23b1-49aa-9b6e-847491873229" >
+				<when expression="#[payload != []]">
+					<ee:transform doc:name="Transform Message" doc:id="d0717955-4d0d-4ae2-bfb3-47849984ef61">
+				<ee:message>
+				</ee:message>
+						<ee:variables>
+							<ee:set-variable variableName="max_id_arr"><![CDATA[%dw 2.0
 output application/json
 ---
-payload
-	]]></ee:set-payload>
-							</ee:message>
-						</ee:transform>
-						<os:store doc:name="Store" doc:id="e99dee26-bb5c-499b-95ca-235f42cc0f71" key="lastNASAID">
-							<os:value><![CDATA[#[max(payload.*r_id)]]]></os:value>
-						</os:store>
-						<set-variable value='#[Mule::p("fileSettings.folder.out") ++ Mule::p("fileSettings.fileName.name") ++ Mule::p("fileSettings.fileName.ext")]' doc:name="setFiileName" doc:id="827a83ad-78a7-4a3e-b837-c95bfff10b0e" variableName="setFileName"/>
-						<ee:transform doc:name="Transform Message" doc:id="2c8567f1-0577-4f63-a7e1-cb7b33440165">
-							<ee:message>
-								<ee:set-payload><![CDATA[%dw 2.0
-output application/csv
----
-payload map(outValue, outIndex) -> {
-	r_id: outValue.r_id,
-	agency: outValue.agency,
-	stations_count: outValue.stations.stations_count,
-	stations_list: flatten(outValue.stations.stations_list),
-	launches_count: outValue.launches.launches_count,
-	launch_name: outValue.launches.launches_list.name,
-	launch_status: outValue.launches.launches_list.status,
-	launch_year: outValue.launches.launches_list.launch_year,
-	launch_failreason: outValue.launches.launches_list.failreason,
-	launch_rocket: flatten(outValue.launches.launches_list.rocket),
-	launch_mission: flatten(outValue.launches.launches_list.mission),
-	launch_pad: flatten(outValue.launches.launches_list.pad)
-	
-	
-		
-	
-}
-]]></ee:set-payload>
-							</ee:message>
-						</ee:transform>
-						<logger level="INFO" doc:name="logPayload" doc:id="26ba0d6a-6014-483b-affd-7ae0cfed125f" message="#[payload]" />
-					</when>
-					<otherwise >
-						<logger level="INFO" doc:name="Logger" doc:id="a670f180-92ad-435f-9ec6-0464c89eb64d" />
-					</otherwise>
-				</choice>
-			</route>
-		</round-robin>
+if ((payload maxBy ((item) -> item.r_id)).r_id != null)
+    vars.max_id_arr + (payload maxBy ((item) -> item.r_id)).r_id
+else
+    vars.max_id_arr]]></ee:set-variable>
+						</ee:variables>
+			</ee:transform>
+					<logger level="INFO" doc:name="Logger" doc:id="12469830-c609-47b2-b3d1-46c6c5fd4b06" message="max_id_arr among records = #[vars.max_id_arr]" />
+					<set-variable value="#[Mule::p('fileSettings.folder') ++ vars.c_name ++ now() as String {format: &quot;yyyy-MM-dd&quot;} ++ &quot;-&quot; ++&#10;&#10;now() as String {format: &quot;hh-m-s&quot;} ++ &quot;.json&quot;]" doc:name="Set Variable" doc:id="ad82928e-e0e7-4a3a-94a4-13a8a46b8da5" variableName="file_name" />
+					<file:write doc:name="Write" doc:id="edb561bc-eb46-4e96-b445-015fe514fb80" mode="CREATE_NEW" path="#[vars.file_name]" config-ref="File_Config">
+					</file:write>
+				</when>
+				<otherwise>
+					<logger level="INFO" doc:name="Logger" doc:id="a42cf42a-a651-4049-894f-bf5414d46c8d" message="Collection wasn't updated"/>
+				</otherwise>
+			</choice>
+			<logger level="INFO" doc:name="Logger" doc:id="bd786f34-bbae-4e2c-a94f-d1f37abe2c06" message="#max_id_arr in each for each = #[vars.max_id_arr]"/>
+		</foreach>
+		<logger level="INFO" doc:name="Logger after for each" doc:id="45a07625-3fad-47f3-8d4b-0f18893a12b8" message="Logger after for each #[vars.max_id_arr]" />
+		<os:store doc:name="Store" doc:id="24c57068-a6a0-4d4d-be1e-466f2ca2add1" key="last_id" failOnNullValue="false">
+						<os:value><![CDATA[#[max(vars.max_id_arr)]]]></os:value>
+					</os:store>
+		<logger level="INFO" doc:name="Logger" doc:id="63142a09-5a97-4bbd-b256-04e5a90b48dd" message="#[vars.last_id]"/>
 	</flow>
 </mule>
