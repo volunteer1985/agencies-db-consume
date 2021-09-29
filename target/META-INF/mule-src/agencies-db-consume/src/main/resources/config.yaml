@@ -1,5 +1,0 @@
-mongodb:
-  string: "mongodb+srv://<name>:<pass>@cluster0.ffh2j.mongodb.net/testDB?retryWrites=true&w=majority"
-  
-fileSettings:
-  folder: "C:/Users/Natalka/AnypointStudio/demo-workspace/agencies-db-consume/Write/"

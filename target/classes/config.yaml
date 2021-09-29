@@ -1,5 +1,5 @@
 mongodb:
-  string: "mongodb+srv://<name>:<pass>@cluster0.ffh2j.mongodb.net/testDB?retryWrites=true&w=majority"
+  string: "mongodb+srv://usrRoot:zudwY4-dynteb-bymdud@cluster1.mfzwg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   
 fileSettings:
-  folder: "C:/Users/Natalka/AnypointStudio/demo-workspace/agencies-db-consume/Write/"
+  folder: "C:/Users/ivanb/AnypointStudio/studio-workspace/agencies-db-consume/src/main/resources/write/"

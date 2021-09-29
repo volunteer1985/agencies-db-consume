@@ -1,0 +1,524 @@
+[
+  {
+    "_id": {
+      "$oid": "614d826acac42e6bd58c5357"
+    },
+    "r_id": 3,
+    "agency": "Russian Federal Space Agency (ROSCOSMOS)",
+    "stations": {
+      "stations_count": 9,
+      "stations_list": [
+        {
+          "id": 4,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/",
+          "name": "International Space Station",
+          "status_id": "1",
+          "status_name": "Active",
+          "type": "Government",
+          "founded": "1998-11-20",
+          "deorbited": null,
+          "description": "The International Space Station (ISS) is a space station, or a habitable artificial satellite, in low Earth orbit. Its first component was launched into orbit in 1998, with the first long-term residents arriving in November 2000. It has been inhabited continuously since that date. The last pressurised module was fitted in 2011, and an experimental inflatable space habitat was added in 2016. The station is expected to operate until 2030. Development and assembly of the station continues, with several new elements scheduled for launch in 2019. The ISS is the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth. The ISS consists of pressurised habitation modules, structural trusses, solar arrays, radiators, docking ports, experiment bays and robotic arms. ISS components have been launched by Russian Proton and Soyuz rockets, and American Space Shuttles.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Canadian Space Agency",
+            "European Space Agency",
+            "Japan Aerospace Exploration Agency",
+            "National Aeronautics and Space Administration",
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/international2520space2520station_image_20190220215716.jpeg"
+        },
+        {
+          "id": 5,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/5/",
+          "name": "Mir",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1986-02-20",
+          "deorbited": "2001-03-23",
+          "description": "Mir was a space station that operated in low Earth orbit from 1986 to 2001, operated by the Soviet Union and later by Russia. Mir was the first modular space station and was assembled in orbit from 1986 to 1996.\r\n\r\nThe station served as a microgravity research laboratory in which crews conducted experiments in biology, human biology, physics, astronomy, meteorology and spacecraft systems with a goal of developing technologies required for permanent occupation of space.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/mir_image_20190218204938.jpeg"
+        },
+        {
+          "id": 9,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/9/",
+          "name": "Salyut 1",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1971-04-19",
+          "deorbited": "1971-10-11",
+          "description": "Salyut 1 (DOS-1) was the first space station of any kind, launched into low Earth orbit by the Soviet Union on April 19, 1971. The Salyut program followed this with five more successful launches out of seven more stations. The final module of the program, Zvezda (DOS-8) became the core of the Russian segment of the International Space Station and remains in orbit.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25201_image_20190217072508.jpeg"
+        },
+        {
+          "id": 10,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/10/",
+          "name": "Salyut 2",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1973-04-03",
+          "deorbited": "1973-05-28",
+          "description": "Salyut 2 (OPS-1) (Russian: Салют-2 meaning Salute 2) was a Soviet space station which was launched in 1973 as part of the Salyut programme. It was the first Almaz military space station to fly. Within two weeks of its launch, the station had lost attitude control and depressurised, leaving it unusable. Its orbit decayed and it re-entered the atmosphere on 28 May 1973, without any crews having visited it.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25202_image_20190217082304.jpeg"
+        },
+        {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/11/",
+          "name": "Salyut 3",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1974-06-25",
+          "deorbited": "1975-01-24",
+          "description": "Salyut 3 (Russian: Салют-3; English: Salute 3; also known as OPS-2 or Almaz 2) was a Soviet space station launched on 25 June 1974. It was the second Almaz military space station, and the first such station to be launched successfully. It was included in the Salyut program to disguise its true military nature. Due to the military nature of the station, the Soviet Union was reluctant to release information about its design, and about the missions relating to the station.\r\n\r\nIt attained an altitude of 219 to 270 km on launch and NASA reported its final orbital altitude was 268 to 272 km. Only one of the three intended crews successfully boarded and manned the station, brought by Soyuz 14; Soyuz 15 attempted to bring a second crew but failed to dock.\r\n\r\nAlthough little official information has been released about the station, several sources report that it contained multiple Earth-observation cameras, as well as an on-board gun. The station was deorbited, and re-entered the atmosphere on 24 January 1975. The next space station launched by the Soviet Union was the civilian station Salyut 4; the next military station was Salyut 5, which was the final Almaz space station.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25203_image_20190310073136.jpg"
+        },
+        {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/12/",
+          "name": "Salyut 4",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1974-12-26",
+          "deorbited": "1977-02-03",
+          "description": "Salyut 4 represented the second phase of DOS civilian space station. Although the basic design of Salyut 1 was retained, it switched to three large solar panels mounted on the forward module rather than its predecessor's four small panels on the docking module and engine compartment, presumably to generate more power. It had an interior floor area of 34.8 sq. The pitch of the station was 2 X 59 N, yaw was 2 X 59 N and roll was 2 X 20 N. The electric System produced an average of 2.00 kW of power. It had 2,000 kg of scientific equipment alongside two sets of three solar panels each and was equipped with the Delta Navigation System which was a new autonomous navigation system that calculates orbital elements without assistance from ground. It was powered by KTDU-66 thrusters. Instrumentation",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25204_image_20190310081804.jpg"
+        },
+        {
+          "id": 13,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/13/",
+          "name": "Salyut 5",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1976-06-22",
+          "deorbited": "1988-08-08",
+          "description": "Salyut 5, also known as OPS-3, was a Soviet space station. Launched in 1976 as part of the Salyut programme, it was the third and last Almaz space station to be launched for the Soviet military. Two Soyuz missions visited the station, each manned by two cosmonauts. A third Soyuz mission attempted to visit the station, but failed to dock, whilst a fourth mission was planned but never launched.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25205_image_20190318095611.png"
+        },
+        {
+          "id": 14,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/14/",
+          "name": "Salyut 6",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1977-09-29",
+          "deorbited": "1982-07-29",
+          "description": "Salyut 6, also known as DOS-5, was a Soviet orbital space station, the eighth flown as part of the Salyut programme. Launched on 29 September 1977 by a Proton rocket, the station was the first of the \"second-generation\" type of space station. Salyut 6 possessed several revolutionary advances over the earlier Soviet space stations, which it nevertheless resembled in overall design. These included the addition of a second docking port, a new main propulsion system and the station's primary scientific instrument, the BST-1M multispectral telescope. The addition of the second docking port made crew handovers and station resupply by unmanned Progress freighters possible for the first time.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25206_image_20190318095930.jpg"
+        },
+        {
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/15/",
+          "name": "Salyut 7",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1982-04-19",
+          "deorbited": "1991-02-07",
+          "description": "Salyut 7, (a.k.a. DOS-6) was a space station in low Earth orbit from April 1982 to February 1991. It was first manned in May 1982 with two crew via Soyuz T-5, and last visited in June 1986, by Soyuz T-15. Various crew and modules were used over its lifetime, including 12 manned and 15 unmanned launches in total. Supporting spacecraft included the Soyuz T, Progress, and TKS spacecraft.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25207_image_20190318100217.jpg"
+        }
+      ]
+    },
+    "launches": "There are no records of space launches made by the Russian Federal Space Agency (ROSCOSMOS) on this page.",
+    "rockets": "There are no records on this page about rockets manufactured by the Russian Federal Space Agency (ROSCOSMOS)."
+  },
+  {
+    "_id": {
+      "$oid": "614da1b64d1b073b314593b6"
+    },
+    "r_id": 4,
+    "agency": "Russian Federal Space Agency (ROSCOSMOS)",
+    "stations": {
+      "stations_count": 9,
+      "stations_list": [
+        {
+          "id": 4,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/",
+          "name": "International Space Station",
+          "status_id": "1",
+          "status_name": "Active",
+          "type": "Government",
+          "founded": "1998-11-20",
+          "deorbited": null,
+          "description": "The International Space Station (ISS) is a space station, or a habitable artificial satellite, in low Earth orbit. Its first component was launched into orbit in 1998, with the first long-term residents arriving in November 2000. It has been inhabited continuously since that date. The last pressurised module was fitted in 2011, and an experimental inflatable space habitat was added in 2016. The station is expected to operate until 2030. Development and assembly of the station continues, with several new elements scheduled for launch in 2019. The ISS is the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth. The ISS consists of pressurised habitation modules, structural trusses, solar arrays, radiators, docking ports, experiment bays and robotic arms. ISS components have been launched by Russian Proton and Soyuz rockets, and American Space Shuttles.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Canadian Space Agency",
+            "European Space Agency",
+            "Japan Aerospace Exploration Agency",
+            "National Aeronautics and Space Administration",
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/international2520space2520station_image_20190220215716.jpeg"
+        },
+        {
+          "id": 5,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/5/",
+          "name": "Mir",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1986-02-20",
+          "deorbited": "2001-03-23",
+          "description": "Mir was a space station that operated in low Earth orbit from 1986 to 2001, operated by the Soviet Union and later by Russia. Mir was the first modular space station and was assembled in orbit from 1986 to 1996.\r\n\r\nThe station served as a microgravity research laboratory in which crews conducted experiments in biology, human biology, physics, astronomy, meteorology and spacecraft systems with a goal of developing technologies required for permanent occupation of space.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/mir_image_20190218204938.jpeg"
+        },
+        {
+          "id": 9,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/9/",
+          "name": "Salyut 1",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1971-04-19",
+          "deorbited": "1971-10-11",
+          "description": "Salyut 1 (DOS-1) was the first space station of any kind, launched into low Earth orbit by the Soviet Union on April 19, 1971. The Salyut program followed this with five more successful launches out of seven more stations. The final module of the program, Zvezda (DOS-8) became the core of the Russian segment of the International Space Station and remains in orbit.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25201_image_20190217072508.jpeg"
+        },
+        {
+          "id": 10,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/10/",
+          "name": "Salyut 2",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1973-04-03",
+          "deorbited": "1973-05-28",
+          "description": "Salyut 2 (OPS-1) (Russian: Салют-2 meaning Salute 2) was a Soviet space station which was launched in 1973 as part of the Salyut programme. It was the first Almaz military space station to fly. Within two weeks of its launch, the station had lost attitude control and depressurised, leaving it unusable. Its orbit decayed and it re-entered the atmosphere on 28 May 1973, without any crews having visited it.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25202_image_20190217082304.jpeg"
+        },
+        {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/11/",
+          "name": "Salyut 3",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1974-06-25",
+          "deorbited": "1975-01-24",
+          "description": "Salyut 3 (Russian: Салют-3; English: Salute 3; also known as OPS-2 or Almaz 2) was a Soviet space station launched on 25 June 1974. It was the second Almaz military space station, and the first such station to be launched successfully. It was included in the Salyut program to disguise its true military nature. Due to the military nature of the station, the Soviet Union was reluctant to release information about its design, and about the missions relating to the station.\r\n\r\nIt attained an altitude of 219 to 270 km on launch and NASA reported its final orbital altitude was 268 to 272 km. Only one of the three intended crews successfully boarded and manned the station, brought by Soyuz 14; Soyuz 15 attempted to bring a second crew but failed to dock.\r\n\r\nAlthough little official information has been released about the station, several sources report that it contained multiple Earth-observation cameras, as well as an on-board gun. The station was deorbited, and re-entered the atmosphere on 24 January 1975. The next space station launched by the Soviet Union was the civilian station Salyut 4; the next military station was Salyut 5, which was the final Almaz space station.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25203_image_20190310073136.jpg"
+        },
+        {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/12/",
+          "name": "Salyut 4",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1974-12-26",
+          "deorbited": "1977-02-03",
+          "description": "Salyut 4 represented the second phase of DOS civilian space station. Although the basic design of Salyut 1 was retained, it switched to three large solar panels mounted on the forward module rather than its predecessor's four small panels on the docking module and engine compartment, presumably to generate more power. It had an interior floor area of 34.8 sq. The pitch of the station was 2 X 59 N, yaw was 2 X 59 N and roll was 2 X 20 N. The electric System produced an average of 2.00 kW of power. It had 2,000 kg of scientific equipment alongside two sets of three solar panels each and was equipped with the Delta Navigation System which was a new autonomous navigation system that calculates orbital elements without assistance from ground. It was powered by KTDU-66 thrusters. Instrumentation",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25204_image_20190310081804.jpg"
+        },
+        {
+          "id": 13,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/13/",
+          "name": "Salyut 5",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1976-06-22",
+          "deorbited": "1988-08-08",
+          "description": "Salyut 5, also known as OPS-3, was a Soviet space station. Launched in 1976 as part of the Salyut programme, it was the third and last Almaz space station to be launched for the Soviet military. Two Soyuz missions visited the station, each manned by two cosmonauts. A third Soyuz mission attempted to visit the station, but failed to dock, whilst a fourth mission was planned but never launched.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25205_image_20190318095611.png"
+        },
+        {
+          "id": 14,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/14/",
+          "name": "Salyut 6",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1977-09-29",
+          "deorbited": "1982-07-29",
+          "description": "Salyut 6, also known as DOS-5, was a Soviet orbital space station, the eighth flown as part of the Salyut programme. Launched on 29 September 1977 by a Proton rocket, the station was the first of the \"second-generation\" type of space station. Salyut 6 possessed several revolutionary advances over the earlier Soviet space stations, which it nevertheless resembled in overall design. These included the addition of a second docking port, a new main propulsion system and the station's primary scientific instrument, the BST-1M multispectral telescope. The addition of the second docking port made crew handovers and station resupply by unmanned Progress freighters possible for the first time.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25206_image_20190318095930.jpg"
+        },
+        {
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/15/",
+          "name": "Salyut 7",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1982-04-19",
+          "deorbited": "1991-02-07",
+          "description": "Salyut 7, (a.k.a. DOS-6) was a space station in low Earth orbit from April 1982 to February 1991. It was first manned in May 1982 with two crew via Soyuz T-5, and last visited in June 1986, by Soyuz T-15. Various crew and modules were used over its lifetime, including 12 manned and 15 unmanned launches in total. Supporting spacecraft included the Soyuz T, Progress, and TKS spacecraft.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25207_image_20190318100217.jpg"
+        }
+      ]
+    },
+    "rockets": {
+      "rockets_count": 0,
+      "rockets_list": [
+        
+      ]
+    }
+  },
+  {
+    "_id": {
+      "$oid": "614daa25c2139a401bf60893"
+    },
+    "r_id": 5,
+    "agency": "Russian Federal Space Agency (ROSCOSMOS)",
+    "stations": {
+      "stations_count": 9,
+      "stations_list": [
+        {
+          "id": 4,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/4/",
+          "name": "International Space Station",
+          "status_id": "1",
+          "status_name": "Active",
+          "type": "Government",
+          "founded": "1998-11-20",
+          "deorbited": null,
+          "description": "The International Space Station (ISS) is a space station, or a habitable artificial satellite, in low Earth orbit. Its first component was launched into orbit in 1998, with the first long-term residents arriving in November 2000. It has been inhabited continuously since that date. The last pressurised module was fitted in 2011, and an experimental inflatable space habitat was added in 2016. The station is expected to operate until 2030. Development and assembly of the station continues, with several new elements scheduled for launch in 2019. The ISS is the largest human-made body in low Earth orbit and can often be seen with the naked eye from Earth. The ISS consists of pressurised habitation modules, structural trusses, solar arrays, radiators, docking ports, experiment bays and robotic arms. ISS components have been launched by Russian Proton and Soyuz rockets, and American Space Shuttles.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Canadian Space Agency",
+            "European Space Agency",
+            "Japan Aerospace Exploration Agency",
+            "National Aeronautics and Space Administration",
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/international2520space2520station_image_20190220215716.jpeg"
+        },
+        {
+          "id": 5,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/5/",
+          "name": "Mir",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1986-02-20",
+          "deorbited": "2001-03-23",
+          "description": "Mir was a space station that operated in low Earth orbit from 1986 to 2001, operated by the Soviet Union and later by Russia. Mir was the first modular space station and was assembled in orbit from 1986 to 1996.\r\n\r\nThe station served as a microgravity research laboratory in which crews conducted experiments in biology, human biology, physics, astronomy, meteorology and spacecraft systems with a goal of developing technologies required for permanent occupation of space.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/mir_image_20190218204938.jpeg"
+        },
+        {
+          "id": 9,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/9/",
+          "name": "Salyut 1",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1971-04-19",
+          "deorbited": "1971-10-11",
+          "description": "Salyut 1 (DOS-1) was the first space station of any kind, launched into low Earth orbit by the Soviet Union on April 19, 1971. The Salyut program followed this with five more successful launches out of seven more stations. The final module of the program, Zvezda (DOS-8) became the core of the Russian segment of the International Space Station and remains in orbit.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25201_image_20190217072508.jpeg"
+        },
+        {
+          "id": 10,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/10/",
+          "name": "Salyut 2",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1973-04-03",
+          "deorbited": "1973-05-28",
+          "description": "Salyut 2 (OPS-1) (Russian: Салют-2 meaning Salute 2) was a Soviet space station which was launched in 1973 as part of the Salyut programme. It was the first Almaz military space station to fly. Within two weeks of its launch, the station had lost attitude control and depressurised, leaving it unusable. Its orbit decayed and it re-entered the atmosphere on 28 May 1973, without any crews having visited it.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25202_image_20190217082304.jpeg"
+        },
+        {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/11/",
+          "name": "Salyut 3",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1974-06-25",
+          "deorbited": "1975-01-24",
+          "description": "Salyut 3 (Russian: Салют-3; English: Salute 3; also known as OPS-2 or Almaz 2) was a Soviet space station launched on 25 June 1974. It was the second Almaz military space station, and the first such station to be launched successfully. It was included in the Salyut program to disguise its true military nature. Due to the military nature of the station, the Soviet Union was reluctant to release information about its design, and about the missions relating to the station.\r\n\r\nIt attained an altitude of 219 to 270 km on launch and NASA reported its final orbital altitude was 268 to 272 km. Only one of the three intended crews successfully boarded and manned the station, brought by Soyuz 14; Soyuz 15 attempted to bring a second crew but failed to dock.\r\n\r\nAlthough little official information has been released about the station, several sources report that it contained multiple Earth-observation cameras, as well as an on-board gun. The station was deorbited, and re-entered the atmosphere on 24 January 1975. The next space station launched by the Soviet Union was the civilian station Salyut 4; the next military station was Salyut 5, which was the final Almaz space station.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25203_image_20190310073136.jpg"
+        },
+        {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/12/",
+          "name": "Salyut 4",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1974-12-26",
+          "deorbited": "1977-02-03",
+          "description": "Salyut 4 represented the second phase of DOS civilian space station. Although the basic design of Salyut 1 was retained, it switched to three large solar panels mounted on the forward module rather than its predecessor's four small panels on the docking module and engine compartment, presumably to generate more power. It had an interior floor area of 34.8 sq. The pitch of the station was 2 X 59 N, yaw was 2 X 59 N and roll was 2 X 20 N. The electric System produced an average of 2.00 kW of power. It had 2,000 kg of scientific equipment alongside two sets of three solar panels each and was equipped with the Delta Navigation System which was a new autonomous navigation system that calculates orbital elements without assistance from ground. It was powered by KTDU-66 thrusters. Instrumentation",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25204_image_20190310081804.jpg"
+        },
+        {
+          "id": 13,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/13/",
+          "name": "Salyut 5",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1976-06-22",
+          "deorbited": "1988-08-08",
+          "description": "Salyut 5, also known as OPS-3, was a Soviet space station. Launched in 1976 as part of the Salyut programme, it was the third and last Almaz space station to be launched for the Soviet military. Two Soyuz missions visited the station, each manned by two cosmonauts. A third Soyuz mission attempted to visit the station, but failed to dock, whilst a fourth mission was planned but never launched.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25205_image_20190318095611.png"
+        },
+        {
+          "id": 14,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/14/",
+          "name": "Salyut 6",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1977-09-29",
+          "deorbited": "1982-07-29",
+          "description": "Salyut 6, also known as DOS-5, was a Soviet orbital space station, the eighth flown as part of the Salyut programme. Launched on 29 September 1977 by a Proton rocket, the station was the first of the \"second-generation\" type of space station. Salyut 6 possessed several revolutionary advances over the earlier Soviet space stations, which it nevertheless resembled in overall design. These included the addition of a second docking port, a new main propulsion system and the station's primary scientific instrument, the BST-1M multispectral telescope. The addition of the second docking port made crew handovers and station resupply by unmanned Progress freighters possible for the first time.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25206_image_20190318095930.jpg"
+        },
+        {
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacestation/15/",
+          "name": "Salyut 7",
+          "status_id": "2",
+          "status_name": "De-Orbited",
+          "type": "Government",
+          "founded": "1982-04-19",
+          "deorbited": "1991-02-07",
+          "description": "Salyut 7, (a.k.a. DOS-6) was a space station in low Earth orbit from April 1982 to February 1991. It was first manned in May 1982 with two crew via Soyuz T-5, and last visited in June 1986, by Soyuz T-15. Various crew and modules were used over its lifetime, including 12 manned and 15 unmanned launches in total. Supporting spacecraft included the Soyuz T, Progress, and TKS spacecraft.",
+          "orbit": "Low Earth Orbit",
+          "owners": [
+            "Russian Federal Space Agency (ROSCOSMOS)"
+          ],
+          "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/spacestation_images/salyut25207_image_20190318100217.jpg"
+        }
+      ]
+    },
+    "rockets": {
+      "rockets_count": 0,
+      "rockets_list": [
+        
+      ]
+    }
+  },
+  {
+    "_id": {
+      "$oid": "614daa42c2139a401bf60894"
+    },
+    "r_id": 6,
+    "agency": "Russian Federal Space Agency (ROSCOSMOS)",
+    "launches": null,
+    "rockets": {
+      "rockets_count": 0,
+      "rockets_list": [
+        
+      ]
+    }
+  },
+  {
+    "_id": {
+      "$oid": "614dccc041697555b3fc8a38"
+    },
+    "r_id": 10,
+    "agency": "Russian Federal Space Agency (ROSCOSMOS)",
+    "launches": null,
+    "rockets": {
+      "rockets_count": 0,
+      "rockets_list": [
+        
+      ]
+    }
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "_id": {
+      "$oid": "615097abaddb0d03e1252f22"
+    },
+    "r_id": 15,
+    "agency": "US Navy",
+    "launches": {
+      "launches_count": 1,
+      "launches_list": [
+        {
+          "name": "Scout X-2 | SOLRAD 4B",
+          "status": "Failure",
+          "launch_year": "1962",
+          "failreason": "",
+          "rocket": {
+            "name": "Scout X-2",
+            "family": "Scout",
+            "full_name": "Scout X-2",
+            "variant": "X-2"
+          },
+          "mission": {
+            "name": "SOLRAD 4B",
+            "description": "SOLRAD (SOLar RADiation) 4B was a solar X-ray, ultraviolet, and electronic surveillance satellite. Developed by the United States Navy's United States Naval Research Laboratory, it was the fifth in both the SOLRAD and the GRAB (Galactic Radiation And Background) programs.",
+            "type": "Astrophysics",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 5",
+            "location": {
+              "name": "Vandenberg SFB, CA, USA",
+              "country_code": "USA",
+              "total_launch_count": 690,
+              "total_landing_count": 3
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61509ab2addb0d03e1252f23"
+    },
+    "r_id": 16,
+    "agency": "US Navy",
+    "launches": {
+      "launches_count": 17,
+      "launches_list": [
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Failure",
+          "launch_year": "1957",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "Small satellite used to test the Vanguard three-stage launch vehicle.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "Small satellite used to test the Vanguard three-stage launch vehicle.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Success",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "Small satellite used to test the Vanguard three-stage launch vehicle.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "Small satellite used to test the Vanguard three-stage launch vehicle.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "Small satellite used to test the Vanguard three-stage launch vehicle.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "Small satellite used to test the Vanguard three-stage launch vehicle.",
+            "type": "Test Flight",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Project Pilot | NOTS 1",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Project Pilot",
+            "family": "",
+            "full_name": "Project Pilot",
+            "variant": ""
+          },
+          "mission": {
+            "name": "NOTS 1",
+            "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground.",
+            "type": "Government/Top Secret",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Naval Air Weapons Station China Lake",
+            "location": {
+              "name": "Air launch to Suborbital flight",
+              "country_code": "",
+              "total_launch_count": 77,
+              "total_landing_count": 0
+            }
+          }
+        },
+        {
+          "name": "Project Pilot | NOTS 2",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Project Pilot",
+            "family": "",
+            "full_name": "Project Pilot",
+            "variant": ""
+          },
+          "mission": {
+            "name": "NOTS 2",
+            "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground.",
+            "type": "Government/Top Secret",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Naval Air Weapons Station China Lake",
+            "location": {
+              "name": "Air launch to Suborbital flight",
+              "country_code": "",
+              "total_launch_count": 77,
+              "total_landing_count": 0
+            }
+          }
+        },
+        {
+          "name": "Project Pilot | NOTS 3",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Project Pilot",
+            "family": "",
+            "full_name": "Project Pilot",
+            "variant": ""
+          },
+          "mission": {
+            "name": "NOTS 3",
+            "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground.",
+            "type": "Government/Top Secret",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Naval Air Weapons Station China Lake",
+            "location": {
+              "name": "Air launch to Suborbital flight",
+              "country_code": "",
+              "total_launch_count": 77,
+              "total_landing_count": 0
+            }
+          }
+        },
+        {
+          "name": "Project Pilot | NOTS 4",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Project Pilot",
+            "family": "",
+            "full_name": "Project Pilot",
+            "variant": ""
+          },
+          "mission": {
+            "name": "NOTS 4",
+            "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground.",
+            "type": "Government/Top Secret",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Naval Air Weapons Station China Lake",
+            "location": {
+              "name": "Air launch to Suborbital flight",
+              "country_code": "",
+              "total_launch_count": 77,
+              "total_landing_count": 0
+            }
+          }
+        },
+        {
+          "name": "Project Pilot | NOTS 5",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Project Pilot",
+            "family": "",
+            "full_name": "Project Pilot",
+            "variant": ""
+          },
+          "mission": {
+            "name": "NOTS 5",
+            "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground.",
+            "type": "Government/Top Secret",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Naval Air Weapons Station China Lake",
+            "location": {
+              "name": "Air launch to Suborbital flight",
+              "country_code": "",
+              "total_launch_count": 77,
+              "total_landing_count": 0
+            }
+          }
+        },
+        {
+          "name": "Project Pilot | NOTS 6",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Project Pilot",
+            "family": "",
+            "full_name": "Project Pilot",
+            "variant": ""
+          },
+          "mission": {
+            "name": "NOTS 6",
+            "description": "The project pilot payloads were small cylindrical satellites. These missions intended to be the first to launch a satellite from an aircraft. They had only a single instrument, a very primitive infrared line scanning device to make IR images of the ground.",
+            "type": "Government/Top Secret",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Naval Air Weapons Station China Lake",
+            "location": {
+              "name": "Air launch to Suborbital flight",
+              "country_code": "",
+              "total_launch_count": 77,
+              "total_landing_count": 0
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Failure",
+          "launch_year": "1958",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "Vanguard was an American satellite and the fourth artificial Earth orbital satellite to be launched. It was the first satellite to have solar electric power.",
+            "type": "Earth Science",
+            "orbit": "Medium Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard II",
+          "status": "Success",
+          "launch_year": "1959",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard II",
+            "description": "Vanguard II is an Earth orbiting satellite and the first weather satellite. It was designed to measure cloud-cover distribution over the daylight portion of its orbit for a period of 19 days and to provide information on the density of the atmosphere.",
+            "type": "Earth Science",
+            "orbit": "Medium Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Failure",
+          "launch_year": "1959",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "The Vanguard satellite was a 13 inch spherical satellite which contained a precise magnetometer to map the Earth's magnetic field. The satellite was lost together with the Vanguard Balloon when the Vanguard launch vehicle second stage was damaged during staging.",
+            "type": "Earth Science",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard",
+          "status": "Failure",
+          "launch_year": "1959",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard",
+            "description": "Vanguard is a scientific satellite to measure the Earth's magnetic field, solar X-ray radiation and its effects on the Earth's atmosphere and the near-Earth micrometeoroid environment.",
+            "type": "Earth Science",
+            "orbit": "Low Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        },
+        {
+          "name": "Vanguard | Vanguard III",
+          "status": "Success",
+          "launch_year": "1959",
+          "failreason": "",
+          "rocket": {
+            "name": "Vanguard",
+            "family": "Vanguard",
+            "full_name": "Vanguard",
+            "variant": ""
+          },
+          "mission": {
+            "name": "Vanguard III",
+            "description": "Vanguard 3 is a scientific satellite to measure the Earth's magnetic field, solar X-ray radiation and its effects on the Earth's atmosphere and the near-Earth micrometeoroid environment.",
+            "type": "Earth Science",
+            "orbit": "Medium Earth Orbit",
+            "planet_of_interest": ""
+          },
+          "pad": {
+            "name": "Space Launch Complex 18A",
+            "location": {
+              "name": "Cape Canaveral, FL, USA",
+              "country_code": "USA",
+              "total_launch_count": 825,
+              "total_landing_count": 21
+            }
+          }
+        }
+      ]
+    }
+  }
+]
